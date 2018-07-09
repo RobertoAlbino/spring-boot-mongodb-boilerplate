@@ -1,33 +1,32 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.roberto.controle"
+      "packageName": "com.roberto.cotaeasy"
     },
-    "jhipsterVersion": "4.14.1",
-    "baseName": "Controle",
-    "packageName": "com.roberto.controle",
-    "packageFolder": "com/roberto/controle",
-    "serverPort": "8080",
-    "authenticationType": "session",
-    "cacheProvider": "ehcache",
-    "enableHibernateCache": true,
+    "jhipsterVersion": "5.0.2",
+    "applicationType": "microservice",
+    "baseName": "CotaEasyEmailService",
+    "packageName": "com.roberto.cotaeasy",
+    "packageFolder": "com/roberto/cotaeasy",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
     "websocket": false,
-    "databaseType": "sql",
-    "devDatabaseType": "mysql",
-    "prodDatabaseType": "mysql",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
     "searchEngine": false,
     "messageBroker": false,
     "serviceDiscoveryType": false,
     "buildTool": "gradle",
-    "enableSocialSignIn": false,
     "enableSwaggerCodegen": false,
-    "rememberMeKey": "61dbdb866b7bb9d48cb395f29d9decc15b138919",
-    "clientFramework": "angular1",
-    "useSass": false,
-    "clientPackageManager": "yarn",
-    "applicationType": "monolith",
+    "jwtSecretKey": "5faf069a610fdac0041950ad85c8de1269c0cabc",
+    "enableTranslation": false,
     "testFrameworks": [],
     "jhiPrefix": "jhi",
-    "enableTranslation": false
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
   }
 }

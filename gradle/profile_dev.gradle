@@ -1,3 +1,5 @@
+import org.gradle.internal.os.OperatingSystem
+
 apply plugin: 'org.springframework.boot'
 
 dependencies {
@@ -13,9 +15,6 @@ bootRun {
     args = []
 }
 
-war {
-    webAppDirName = 'src/main/webapp/'
-}
 
 processResources {
     filesMatching('**/application.yml') {
